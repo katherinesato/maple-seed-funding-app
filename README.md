@@ -12,9 +12,9 @@
 
 | Home | Find My Support results |
 | --- | --- |
-| ![Home page: funding and subsidies for Canadian SMEs, made simple](docs/prototype/home.png) | ![Find My Support results grouped into Match, Maybe and Not a match, with the reason for each criterion](docs/prototype/find-my-support-results.png) |
+| ![Home page: funding and subsidies for Canadian SMEs, made simple](2%20-%20Platform%20Design/docs/prototype/home.png) | ![Find My Support results grouped into Match, Maybe and Not a match, with the reason for each criterion](2%20-%20Platform%20Design/docs/prototype/find-my-support-results.png) |
 | **Program details** | **Profile and saved list** |
-| ![Program details page with amount, type of support, eligibility and a link to the official website](docs/prototype/program-details.png) | ![Profile page with the saved list of programs, PDF report and recommendations](docs/prototype/profile-list.png) |
+| ![Program details page with amount, type of support, eligibility and a link to the official website](2%20-%20Platform%20Design/docs/prototype/program-details.png) | ![Profile page with the saved list of programs, PDF report and recommendations](2%20-%20Platform%20Design/docs/prototype/profile-list.png) |
 
 **[▶ Try the interactive prototype (English and French)](PROTOTYPE-LINK)**
 
