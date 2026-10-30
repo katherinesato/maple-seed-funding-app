@@ -156,14 +156,3 @@ The prototype uses example programs and simplified rules. Real criteria must be 
 ## 👩‍💻 Author
 
 **Katherine Borges Sato**: independent, non-commercial learning project.
-## 📂 Project Architecture
-
-```text
-can-business-support-app/
-│
-├── docs/            # Research notes, benchmark analysis, and user personas
-├── scripts/         # Web scrapers and data normalization scripts for public/private sources
-├── frontend/        # Tabular B2B dashboard and Corporate Triage UI
-├── backend/         # Eligibility scoring engine, API routing, and deterministic logic
-└── database/        # PostgreSQL migrations, table schemas, and indexed subsidy data
-```
