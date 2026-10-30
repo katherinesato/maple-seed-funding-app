@@ -8,6 +8,20 @@
 
 ---
 
+## 🎨 Prototype
+
+| Home | Find My Support results |
+| --- | --- |
+| ![Home page: funding and subsidies for Canadian SMEs, made simple](docs/prototype/home.png) | ![Find My Support results grouped into Match, Maybe and Not a match, with the reason for each criterion](docs/prototype/find-my-support-results.png) |
+| **Program details** | **Profile and saved list** |
+| ![Program details page with amount, type of support, eligibility and a link to the official website](docs/prototype/program-details.png) | ![Profile page with the saved list of programs, PDF report and recommendations](docs/prototype/profile-list.png) |
+
+**[▶ Try the interactive prototype (English and French)](PROTOTYPE-LINK)**
+
+*Design prototype with example programs and simplified rules. It also includes the style guide, the brand record and the internal curator console.*
+
+---
+
 ## 🔍 The Problem
 
 Small and medium-sized businesses are the backbone of Canada's economy, and support for them exists at scale. Yet few small businesses use government financing, and awareness of specific programs is low.
@@ -132,6 +146,7 @@ The scope stays small on purpose: a working, well-documented MVP matters more th
 maple-seed-funding-guide/
 │
 ├── docs/              # Design document, UML diagrams, research notes, brand record
+│   └── prototype/     # Screenshots of the design prototype
 ├── frontend/          # Bilingual views (EN/FR) and the curator console
 ├── backend/
 │   ├── catalogue/     # Programs, providers, search and filters
