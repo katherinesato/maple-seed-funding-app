@@ -12,9 +12,9 @@
 
 | Home | Find My Support results |
 | --- | --- |
-| ![Home page: funding and subsidies for Canadian SMEs, made simple](2%20-%20Platform%20Design/docs/prototype/home.png) | ![Find My Support results grouped into Match, Maybe and Not a match, with the reason for each criterion](2%20-%20Platform%20Design/docs/prototype/find-my-support-results.png) |
+| ![Home page: funding and subsidies for Canadian SMEs, made simple](docs/prototype/home.png) | ![Find My Support results grouped into Match, Maybe and Not a match, with the reason for each criterion](docs/prototype/find-my-support-results.png) |
 | **Program details** | **Profile and saved list** |
-| ![Program details page with amount, type of support, eligibility and a link to the official website](2%20-%20Platform%20Design/docs/prototype/program-details.png) | ![Profile page with the saved list of programs, PDF report and recommendations](2%20-%20Platform%20Design/docs/prototype/profile-list.png) |
+| ![Program details page with amount, type of support, eligibility and a link to the official website](docs/prototype/program-details.png) | ![Profile page with the saved list of programs, PDF report and recommendations](docs/prototype/profile-list.png) |
 
 **[▶ Try the interactive prototype (English and French)](https://claude.ai/artifact/QvTPqi2BYV2pCmARK6j8JT#play-15dd8cd198dd)**
 
@@ -143,19 +143,23 @@ The scope stays small on purpose: a working, well-documented MVP matters more th
 ## 📂 Project Structure (planned)
 
 ```text
-maple-seed-funding-guide/
+maple-seed-funding-app/
 │
-├── docs/              # Design document, UML diagrams, research notes, brand record
-│   └── prototype/     # Screenshots of the design prototype
-├── frontend/          # Bilingual views (EN/FR) and the curator console
+├── docs/
+│   ├── research/      
+│   ├── design/        
+│   └── prototype/     
+├── frontend/
 ├── backend/
-│   ├── catalogue/     # Programs, providers, search and filters
-│   ├── matching/      # Rule engine: EligibilityCriterion subclasses, MatchResult
-│   ├── reporting/     # PDF report generation
-│   ├── accounts/      # Users, roles, consent, data export and deletion
-│   └── data_import/   # Pipeline: download, clean, normalise, validate, store
-├── database/          # PostgreSQL migrations and schemas
-└── tests/             # Unit, integration and acceptance tests derived from the use cases
+│   ├── catalogue/
+│   ├── matching/
+│   ├── reporting/
+│   ├── accounts/
+│   └── data_import/
+├── database/
+├── tests/
+├── LICENSE
+└── README.md
 ```
 
 ---
