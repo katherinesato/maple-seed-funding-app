@@ -16,7 +16,7 @@
 | **Program details** | **Profile and saved list** |
 | ![Program details page with amount, type of support, eligibility and a link to the official website](2%20-%20Platform%20Design/docs/prototype/program-details.png) | ![Profile page with the saved list of programs, PDF report and recommendations](2%20-%20Platform%20Design/docs/prototype/profile-list.png) |
 
-**[▶ Try the interactive prototype (English and French)](PROTOTYPE-LINK)**
+**[▶ Try the interactive prototype (English and French)](https://claude.ai/artifact/QvTPqi2BYV2pCmARK6j8JT#play-15dd8cd198dd)**
 
 *Design prototype with example programs and simplified rules. It also includes the style guide, the brand record and the internal curator console.*
 
